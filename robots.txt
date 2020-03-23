@@ -1,0 +1,16 @@
+User-Agent: *
+allow: /conf/
+allow: /css/
+allow: /archives/
+allow: /emblem/
+allow: /font-awesome-4.4.0
+allow: /img/
+allow: /js/
+allow: /lang/
+allow: /moduls/
+allow: /shop/
+User-agent: Googlebot-Image
+User-agent: Googlebot
+User-agent: Adsbot-Google
+User-agent: Googlebot-Mobile
+Allow: /

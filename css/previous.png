@@ -1,0 +1,470 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+        <meta charset="windows-1252">
+
+		<title>ArticGunZ</title>		<!-- META INFO -->
+		<meta property="og:title" content="Gunz EntityGaming">
+		<meta property="og:site_name" content="gunz.entitygaming.com">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="google_image">
+		<meta property="og:url" content="http:/gunz.entitygaming.com/">
+		<meta property="og:description" content="ArticGunZ is an international server and completely free to play. Enter now and register! What are you waiting for?">
+
+        <!-- Le styles -->
+		<link href="/css/demo.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/css/norm.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/css/nivo-slider.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/css/shadowbox.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/css/global.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+		<!-- Scripts -->
+		<script type="text/javascript" src="/js/simple-tabs.js"></script>
+<script type="text/javascript" src="/js/PENE.js"></script>
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="/js/jquery.elevateZoom.min.js"></script>
+<script type="text/javascript" src="/js/shadowbox.js"></script>
+<script type="text/javascript" src="/js/readmore.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="/js/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="/js/respond.min.js"></script><![endif]-->
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/jquery.bpopup.min.js"></script>	</head>
+	<body>
+        
+        <script>
+            function show_popup()
+            {
+                $('#popup').bPopup();
+            }
+            window.setTimeout("show_popup()", 500);
+        </script>
+
+		<!-- Top bar -->
+		<div class="topbar">
+			<div class="sw">
+				<span class="rightx addmargin-l">
+                    					<a href="/account/login" class="topbtn">Login</a>
+					<a href="/account/register" class="topbtn">Register</a>
+                    				</span>
+				<!-- Language Select -->
+				<ul class="languageselect">
+					<span>LOCATION / LANGUAGE</span>
+					<li><a href="#" class="active"><i class="fgi us"></i></a></li>
+					<li><a href="#"><i class="fgi br"></i></a></li>
+					<li><a href="#"><i class="fgi sp"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+
+		<!-- Begin main site -->
+		<div class="sw">
+			<!-- Logo -->
+			<div class="logo"><a href="/">
+				<img src="/img/assets/logo.png" alt="ArticGamers GunZ"></a></div>
+			<!-- Social Icons -->
+			<ul class="socicons">
+				<p>Follow us on</p>
+				<li><a href="https://www.facebook.com/articgunz"><i class="socicon fb"></i></a></li>
+				<li><a href="#"><i class="socicon yt"></i></a></li>
+				<li><a href="https://twitter.com/articgunz"><i class="socicon tw"></i></a></li>
+			</ul>
+			<!-- Navigation Links -->
+			<nav>
+				<ul>
+					<li><a href="/">Inicio</a></li>
+                                        <li><a href="/account/register">Registrarse</a></li>
+                    					<li><a href="/ranking">Rankings</a></li>
+					<li><a href="/downloads">Media y Descargas</a></li>
+					<li><a href="/itemshop">Shop de Items</a></li>
+					<li><a href="http://forum.entitygaming.com" target="_blank">Foros</a></li>
+				</ul>
+			</nav>
+			<!-- Slider & Mini User Profile -->
+			<div class="mainhead">
+				<!-- Account Panel or Login -->
+                <script>
+    function Chkbox() {
+        if(document.getElementById('chkbox').checked) {
+            document.getElementById('chkbox').checked = false;
+        }
+        else {
+            document.getElementById('chkbox').checked = true;
+        }
+    }
+</script>
+
+<div class="module login">
+    <h3>Login</h3>
+    <div class="content">
+        <form id="login" name="login" action="/account/login" method="post">
+            <input type="text" placeholder="Username" id="username" name="username">
+            <input type="password" placeholder="Password" id="password" name="password"><br>
+					<span id="rememberme">
+						<input type="checkbox" name="chkbox" id="chkbox" value="1"> <id='remember' onclick='Chkbox()'>Recuérdame </>
+					</span>
+            <span class="right"><input type="submit" value="Login"></span>
+            <p>¿Has olvidado tu <a href="#">Usuario</a> / <a href="#"> Contraseña?</a></p>
+        </form>
+
+
+        <span class="rightx"><a href="/account/register" class="small-r">Registro Rápido</a></span>
+    </div>
+</div>                <!-- Slider -->
+                <div id="slider" class="nivoSlider">
+                    <a href="#"><img src="/img/assets/slider/placeholder.png" data-thumb="/img/assets/slider/placeholder.png" alt="" /></a>
+					<a href="#"><img src="/img/assets/slider/placeholder2.png" data-thumb="/img/assets/slider/placeholder2.png" alt="" /></a>
+					<a href="#"><img src="/img/assets/slider/placeholder3.png" data-thumb="/img/assets/slider/placeholder3.png" alt="" /></a>
+					<a href="#"><img src="/img/assets/slider/placeholder4.png" data-thumb="/img/assets/slider/placeholder4.png" alt="" /></a>
+				</div>
+			</div>
+
+            <!-- Ranking Shit -->
+<div class="module">
+    <h3>Artic GunZ Ranking</h3>
+    <div class="content">
+        <!-- Begin Ranking 1 -->
+        <div class="module col3">
+            <h3>Clan Ranking <span class="rightx"><a href="/ranking/clan" class="btn st2">View all</a></span></h3>
+            <div class="content">
+                <table class="ranking">
+                    <tr>
+                        <th scope="col">RANK</th>
+                        <th scope="col">&nbsp;</th>
+                        <th scope="col">NAME</th>
+                        <th scope="col">POINTS</th>
+                    </tr>
+                                        <tr>
+                        <td><span class="pos">1</span></td>
+                        <td><img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/53006_1430452578.jpg"></td>
+                        <td>Applause</td>
+                        <td>2949</td>
+                    </tr>
+                                        <tr>
+                        <td><span class="pos">2</span></td>
+                        <td><img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/53132_1430664604.jpg"></td>
+                        <td>iHateYouBaby</td>
+                        <td>1962</td>
+                    </tr>
+                                        <tr>
+                        <td><span class="pos">3</span></td>
+                        <td><img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/noemblem.jpg"></td>
+                        <td>Hydants</td>
+                        <td>1934</td>
+                    </tr>
+                                        <tr>
+                        <td><span class="pos">4</span></td>
+                        <td><img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/53350_1431041480.jpg"></td>
+                        <td>Kaijo</td>
+                        <td>1578</td>
+                    </tr>
+                                        <tr>
+                        <td><span class="pos">5</span></td>
+                        <td><img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/noemblem.jpg"></td>
+                        <td>debu</td>
+                        <td>1443</td>
+                    </tr>
+                                    </table>
+            </div>
+        </div>
+        <!-- Begin Ranking 2 -->
+        <div class="module col3">
+            <h3>Individual Ranking <span class="rightx"><a href="/ranking/individual" class="btn st2">View all</a></span></h3>
+            <div class="content">
+                <table class="ranking">
+                    <tr>
+                        <th scope="col">RANK</th>
+                        <th scope="col">&nbsp;</th>
+                        <th scope="col">NAME</th>
+                        <th scope="col">LVL</th>
+                        <th scope="col">K/D</th>
+                    </tr>
+                                        <tr>
+                        <td><span class="pos">1</span></td>
+                        <td>&nbsp;</td>
+                        <td>™§Øna†A™</td>
+                        <td>99</td>
+                        <td>1.11</td>
+                    </tr>
+                                        <tr>
+                        <td><span class="pos">2</span></td>
+                        <td>&nbsp;</td>
+                        <td>Sipnosiz</td>
+                        <td>99</td>
+                        <td>5.18</td>
+                    </tr>
+                                        <tr>
+                        <td><span class="pos">3</span></td>
+                        <td>&nbsp;</td>
+                        <td>Frühling</td>
+                        <td>99</td>
+                        <td>1.51</td>
+                    </tr>
+                                        <tr>
+                        <td><span class="pos">4</span></td>
+                        <td>&nbsp;</td>
+                        <td>Yerugu</td>
+                        <td>99</td>
+                        <td>1.06</td>
+                    </tr>
+                                        <tr>
+                        <td><span class="pos">5</span></td>
+                        <td>&nbsp;</td>
+                        <td>José</td>
+                        <td>99</td>
+                        <td>1.2</td>
+                    </tr>
+                                    </table>
+            </div>
+        </div>
+        <!-- Begin Ranking 3-->
+        <div class="module col3">
+            <h3>Ladder Ranking <span class="rightx"><a href="/ranking/ladder" class="btn st2">View all</a></span></h3>
+            <div class="content">
+                <table class="ranking">
+                    <tr>
+                        <th scope="col">RANK</th>
+                        <th scope="col">&nbsp;</th>
+                        <th scope="col">NAME</th>
+                        <th scope="col">LVL</th>
+                        <th scope="col">POINTS</th>
+                    </tr>
+                                        <tr>
+                        <td><span class="pos">1</span></td>
+                        <td><img class="zoom_thumb" src="/img/ladder/5.png"></td>
+                        <td>lllllllllIl</td>
+                        <td>99</td>
+                        <td>149281</td>
+                    </tr>
+                                        <tr>
+                        <td><span class="pos">2</span></td>
+                        <td><img class="zoom_thumb" src="/img/ladder/5.png"></td>
+                        <td>José</td>
+                        <td>99</td>
+                        <td>145713</td>
+                    </tr>
+                                        <tr>
+                        <td><span class="pos">3</span></td>
+                        <td><img class="zoom_thumb" src="/img/ladder/5.png"></td>
+                        <td>MarioGötze</td>
+                        <td>99</td>
+                        <td>144834</td>
+                    </tr>
+                                        <tr>
+                        <td><span class="pos">4</span></td>
+                        <td><img class="zoom_thumb" src="/img/ladder/5.png"></td>
+                        <td>Shogett</td>
+                        <td>99</td>
+                        <td>140045</td>
+                    </tr>
+                                        <tr>
+                        <td><span class="pos">5</span></td>
+                        <td><img class="zoom_thumb" src="/img/ladder/5.png"></td>
+                        <td>Houston...</td>
+                        <td>99</td>
+                        <td>130101</td>
+                    </tr>
+                                    </table>
+            </div>
+        </div>
+    </div>
+</div>
+            <!-- Left side bar -->
+            <div class="lsw">
+                <!-- Links -->
+                <a href="/downloads" class="big-l">Descarga del Cliente</a>
+<div id="onlinenow">Únete, <strong>214</strong> Jugadores están jugando ahora!</div>
+                <!-- Quick Links -->
+                <ul class="quicklinks">
+                    <li><a href="#"><i class="dki star"></i>Guía de Inicio</a></li>
+                </ul>
+                <!-- Facebook Like Box -->
+                <div class="module">
+                    <h3>Facebook</h3>
+                    <div class="content">
+                        <iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Farticgunz&amp;width=212&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:212px; height:258px;" allowTransparency="true"></iframe>
+                    </div>
+                </div>
+                <!-- Recent Clan Wars -->
+<div class="module">
+    <h3>Recent Clan Wars <span class="rightx"><a href="#" class="btn st2">View Past</a></span></h3>
+    <div class="content">
+        <table class="recentcw">
+            <tr>
+                <th scope="col">NOMBRE</th>
+                <th scope="col">SCORE</th>
+                <th scope="col">NOMBRE</th>
+            </tr>
+                        <tr>
+                <td><!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/"> --><a href="#">Hydants</a></td>
+                                <td><span class="win">4</span>-<span class="lose">2</span></td>
+                                <td><a href="#">Trem0r</a> <!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/">--></td>
+            </tr>
+                        <tr>
+                <td><!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/53006_1430452578.jpg"> --><a href="#">Applause</a></td>
+                                <td><span class="win">4</span>-<span class="lose">0</span></td>
+                                <td><a href="#">Shotts</a> <!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/">--></td>
+            </tr>
+                        <tr>
+                <td><!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/"> --><a href="#">Trem0r</a></td>
+                                <td><span class="lose">0</span>-<span class="win">4</span></td>
+                                <td><a href="#">Hydants</a> <!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/">--></td>
+            </tr>
+                        <tr>
+                <td><!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/"> --><a href="#">Hydants</a></td>
+                                <td><span class="win">4</span>-<span class="lose">2</span></td>
+                                <td><a href="#">Bonanza</a> <!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/">--></td>
+            </tr>
+                        <tr>
+                <td><!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/"> --><a href="#">Shotts</a></td>
+                                <td><span class="lose">3</span>-<span class="win">4</span></td>
+                                <td><a href="#">Applause</a> <!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/53006_1430452578.jpg">--></td>
+            </tr>
+                        <tr>
+                <td><!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/"> --><a href="#">Trem0r</a></td>
+                                <td><span class="lose">1</span>-<span class="win">4</span></td>
+                                <td><a href="#">Hydants</a> <!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/">--></td>
+            </tr>
+                        <tr>
+                <td><!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/"> --><a href="#">Bonanza</a></td>
+                                <td><span class="lose">0</span>-<span class="win">4</span></td>
+                                <td><a href="#">Hydants</a> <!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/">--></td>
+            </tr>
+                        <tr>
+                <td><!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/"> --><a href="#">Bonanza</a></td>
+                                <td><span class="lose">1</span>-<span class="win">4</span></td>
+                                <td><a href="#">Hydants</a> <!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/">--></td>
+            </tr>
+                        <tr>
+                <td><!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/"> --><a href="#">Hydants</a></td>
+                                <td><span class="win">4</span>-<span class="lose">2</span></td>
+                                <td><a href="#">Trem0r</a> <!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/">--></td>
+            </tr>
+                        <tr>
+                <td><!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/53006_1430452578.jpg"> --><a href="#">Applause</a></td>
+                                <td><span class="win">4</span>-<span class="lose">2</span></td>
+                                <td><a href="#">Shotts</a> <!--<img class="zoom_thumb" src="http://emblem.articgamers.net/emblems/">--></td>
+            </tr>
+                    </table>
+    </div>
+</div>                <!-- Quick Links -->
+                <ul class="quicklinks">
+                    <li><a href="/ranking/hall"><i class="dki award"></i>Ver el Salón de la Fama</a></li>
+                    <li><a href="/account/signature"><i class="dki stats"></i>Consigue tu firma de GunZ</a></li>
+                </ul>
+            </div>
+
+			<!-- Middle -->
+
+            			<div class="mid">
+            				<!-- News Listing -->
+                                <div class="module">
+                    <div class="content">
+<h1>Ha ocurrido un error 404</h1>
+<h2>Page not found.</h2>
+
+
+
+</div>                </div>
+                			</div>
+            <!-- Start right side bar -->
+
+                        <div class="rsw">
+                <!-- Item of the Day -->
+
+                <!-- Events -->
+                <div class="currentevents">
+                    <ul class="tabs eventslider">
+                        <li><a class="active" href="#event1"></a></li>
+                        <li><a href="#event2"></a></li>
+                        <li><a href="#event3"></a></li>
+                        <li><a href="#event4"></a></li>
+                    </ul>
+                    <ul class="tabs-content">
+                        <li class="active" id="event1"><a href="/account/premium" class="marginfix"><img src="/img/assets/events/thumbs/1.png" alt=""></a></li>
+                        <!--<li id="event2"><a href="#" class="marginfix"><img src="/img/assets/events/thumbs/2.png" alt=""></a></li>
+                        <li id="event3"><a href="#" class="marginfix"><img src="/img/assets/events/thumbs/3.png" alt=""></a></li>
+                        <li id="event4"><a href="#" class="marginfix"><img src="/img/assets/events/thumbs/4.png" alt=""></a></li>-->
+                    </ul>
+                </div>
+                <!-- Quick Links -->
+                <ul class="quicklinks">
+                    <li><a href="#"><i class="dki pencil"></i>Leer la FAQ</a></li>
+                    <li><a href="#"><i class="dki person"></i>Ver Colaboradores Importantes</a></li>
+                    <li><a href="#"><i class="dki comment"></i>Foros de la Comunidad</a></li>
+                </ul>
+                <!-- Recent Threads -->
+                <div class="module">
+                    <h3>New Forum Activity</h3>
+                    <div class="content">
+                        <ul class="forumactivity">
+                            <li><a href="#">SS Bomb</a></li>
+                            <li><a href="#">Sparta Clan</a></li>
+                            <li><a href="#">Tournament date?</a></li>
+                            <li><a href="#">Hello!</a></li>
+                            <li><a href="#">Premium coins.</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Trailer -->
+                <div class="trailerprev">
+                    <a href="http://www.youtube.com/v/vXrQbMiIbeE&amp;hl=en&amp;fs=1&amp;rel=0&amp;autoplay=1" rel="shadowbox;width=640;height=360" title="ArticGamers GunZ - Prom. Video Competition [720p] (WIN)" ><img src="/img/assets/trailer.png" /></a>
+                </div>
+            </div>
+            		</div>
+        <div class="sw">
+            <!-- Footer -->
+            <footer>
+                <ul>
+                    <li>Sobre el Juego                        <ul>
+                            <li><a href="#">¿Qué es GunZ?</a></li>
+                            <li><a href="#">Personajes</a></li>
+                            <li><a href="#">Lugares del Mundo</a></li>
+                        </ul>
+                    </li>
+                    <li class="textright">Guías                        <ul>
+                            <li><a href="#">Controles</a></li>
+                            <li><a href="#">K-Style y Variantes</a></li>
+                            <li><a href="#">Items Usables</a></li>
+                        </ul>
+                    </li>
+                    <span class="logo_footer">
+                        <a href="/"><img src="/img/assets/logo.png" alt=""></a>
+                    </span>
+                    <li>Media & Downloads                        <ul>
+                            <li><a href="#">Wallpapers</a></li>
+                            <li><a href="#">Screenshots</a></li>
+                            <li><a href="#">Kit fanático</a></li>
+                            <li><a href="#">Descarga del Cliente</a></li>
+                        </ul>
+                    </li>
+                    <li class="textright">Soporte                        <ul>
+                            <li><a href="#">FAQ General</a></li>
+                            <li><a href="#">Términos del Servicio</a></li>
+                            <li><a href="#">Política de Privacidad</a></li>
+                            <li><a href="#">Soporte de Cuentas</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <p class="entitylinks">
+                    <a href="#">Mapa del Sitio</a> /
+                    <a href="#">Sobre Entity Network</a> /
+                    <a href="#">Oportunidades de Carrera</a> /
+                    <a href="#">Términos del Servicio</a> /
+                    <a href="#">Política de Privacidad</a> /
+                    <a href="#">DMCA Disclaimer</a> /
+                    <a href="#">Contáctenos</a>
+                </p>
+                <p id="copyright">
+                    Copyright &copy; Artic GunZ 2012-2015. All the content shown in this website is reserved. All the images, logos and names belongs to their respective owners.
+                    Please read our <a href="#">ToS</a> and <a href="#">Privacy Policy</a> before using any of the features or services we provide.
+                </p>
+                <p class="phoenix">
+                    Designed by <a href="http://iphoenixi.com/">Phoenix</a> <br> Programmed by <a href="http://forum.entitygaming.com/member.php?16">Nexys</a> and <a href="http://forum.entitygaming.com/member.php?1695">Fusiler</a> </br>
+                </p>
+            </footer>
+        </div>
+	</body>
+</html>
